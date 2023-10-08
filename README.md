@@ -1,8 +1,8 @@
 # FrequencyControllerApi
 
-Method | HTTP request | Description
------------- |--------------| ------------ 
-[**calculateFrequency**](FrequencyControllerApi.md#calculatefrequencyapi) | **POST** /calculate-frequency | Вычисление частоты встречающихся символов в заданной строке
+| Method                                                 | HTTP request                  | Description                                                 |
+|--------------------------------------------------------|-------------------------------|-------------------------------------------------------------|
+| [**calculateFrequency**](README.md#calculateFrequency) | **POST** /calculate-frequency | Вычисление частоты встречающихся символов в заданной строке |
 
 <a name="calculateFrequency"></a>
 # **calculateFrequency**
@@ -30,9 +30,9 @@ try{
 
 ### Parameters
 
-Name | Type | Description | Notes
------------- |--------------| ------------ | ------------ 
-**request** | [**FrequencyRequestDTO**](FrequencyRequestDTO.md) | Входная строка
+| Name        | Type                                              | Description    | Notes |
+|-------------|---------------------------------------------------|----------------|-------|
+| **request** | [**FrequencyRequestDTO**](FrequencyRequestDTO.md) | Входная строка |       |
 
 ### Return type
 
